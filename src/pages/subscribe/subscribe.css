@@ -1,0 +1,43 @@
+.sub-container {
+  background-color: #181c1f;
+  width: 100%;
+  height: max-content;
+  padding: 150px;
+  margin-top: 100px;
+}
+.sub-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  gap: 50px;
+}
+.sub-content h3{
+    font-size: 2rem;
+}
+.sub-content .input{
+    display: flex;
+    gap:20px;
+    height: 60px;
+}
+.sub-container .input input{
+    background-color: black;
+    border: none;
+    outline: none;
+    padding:25px;
+    font-size: 1.2rem;
+    width: 450px;
+    border-radius: 10px;
+    color:#fff;
+
+}
+.sub-container .input button{
+    width: 150px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #4928cf;
+    font-size: 1.2rem;
+    color:#fff;
+}

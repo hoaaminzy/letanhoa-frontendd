@@ -1,0 +1,26 @@
+.blog-page-container{
+    background-color: #111518;
+ color:#fff;
+ padding:100px 0;
+}
+.feauted-product-box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px;
+  margin-top: 50px;
+/* padding:0  50px; */
+
+}
+.feauted-product-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.feauted-product-box .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #f3f5f7;
+}

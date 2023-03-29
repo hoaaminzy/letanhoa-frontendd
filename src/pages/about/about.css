@@ -1,0 +1,137 @@
+.about-page-container{
+       background-color: #111518;
+    color:#fff;
+    padding:100px 0;
+}
+.add{
+    background-color: #111518;
+    height: 250px;
+}
+.aoron{
+    padding:0 50px;
+    transform: translateY(-250px);
+}
+.aoron img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.aoron-content{
+    border-radius: 30px;
+    overflow: hidden;
+}
+.aoron-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.aoron-box div{
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-top: -5px;
+    background-color: #fbfbfb;
+}
+.aoron-box div:hover{
+    background-color:#4928cf ;
+    color:#fff;
+    transition: all .3s ease-in-out;
+    }
+
+.quisque{
+    padding:50px 50px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.quisque .quisque-container .desc{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+.number-count{
+    color:#4928cf;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.countup{
+    padding:50px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    text-align: center;
+}
+.countup div{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.heading-desc{
+    text-align: justify;
+}
+.btn-about{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.brand{
+    background-color: #111518;
+}
+.brand-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    justify-content: center;
+    padding:80px 50px
+}
+.brand-container img{
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+.testimonials{
+    padding:100px 50px;
+}
+.testimonials .title-testimonials{
+    text-align: center;
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.testimonials-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    margin-top: 50px;
+}
+.testimonials-box{
+    background-color: rgb(242, 242, 242);
+    padding:40px;
+    display: flex;
+    border-radius: 30px;
+    gap:30px;
+}
+.testimonials-box img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.testimonials-box p{
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.testimonials-box .abccccccc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:50px;
+}
+.testimonials .abccccccc div{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+}
+.testimonials .abccccccc div span:first-child{
+    font-weight: bold;
+    font-size: 1.2rem;
+}

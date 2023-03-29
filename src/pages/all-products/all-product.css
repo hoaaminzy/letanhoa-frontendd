@@ -1,0 +1,12 @@
+.view-all-product{
+padding:50px;
+}
+.heading-view-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    gap:20px;
+}

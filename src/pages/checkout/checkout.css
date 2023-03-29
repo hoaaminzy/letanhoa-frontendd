@@ -1,0 +1,59 @@
+.checkout-content{
+    display: flex;
+    width: 100%;
+    padding:50px 0;
+    gap:40px;
+}
+
+.checkout{
+    padding:100px 50px;
+}
+.checkout h3{
+    font-size: 2rem;
+}
+.checkout-left{
+    flex:1;
+    width: 100%;
+}
+.checkout-left h4{
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+.checkout-right{
+    flex: 1;
+    width: 100%;
+    border: 2px solid #ccc;
+    padding:40px;
+}
+.first{
+    display: flex;
+    gap:10px;
+}
+.form-checkout {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.form-checkout div{
+    width: 100%;
+}
+.name-checkout-info{
+    display: flex;
+    justify-content: space-between;
+}
+.checkout-info{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.checkout-btn{
+    width: 100% !important;
+}
+.pppp{
+    background-color: #e8e7e7;
+    padding:15px;
+    border-radius: 5px;
+}
+.form-checkout .abccccccccc{
+    margin: 10px 0;
+}

@@ -1,0 +1,14 @@
+.featured-product-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featured-product-container .title-featured{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    display: block;
+}
+.featured-product-container p{
+    font-size: 1.1rem;
+}

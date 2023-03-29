@@ -1,0 +1,21 @@
+.product-page-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+
+}
+.product-page-header a{
+    color:#fff;
+}
+.product-page-header h3{
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+}
+.currented{
+    color:#b8b8b8 !important; 
+}
+.currented:hover{
+    color: #fff !important;
+}

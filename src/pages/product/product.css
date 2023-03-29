@@ -1,0 +1,24 @@
+.product-page-container{
+    background-color: #111518;
+    color:#fff;
+    padding:100px 0;
+}
+
+.product-page-container a{
+    color:#fff;
+    font-size: 1.3rem;
+}
+
+
+.products-page-item{
+    padding:50px;
+}
+.products-page-item .heading-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.products-page-item select{
+    padding:10px 20px;
+}
